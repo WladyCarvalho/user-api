@@ -14,7 +14,7 @@
 	<name>teste-spring</name>
 	<description>Projeto de teste, tendo como base uma simples API que retorna dados de usuário</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

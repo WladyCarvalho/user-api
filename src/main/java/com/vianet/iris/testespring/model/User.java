@@ -1,6 +1,5 @@
 package com.vianet.iris.testespring.model;
 
-import jdk.jfr.DataAmount;
 import lombok.Data;
 
 import javax.persistence.*;
