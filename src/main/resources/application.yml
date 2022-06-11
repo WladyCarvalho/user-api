@@ -1,0 +1,20 @@
+server:
+  port: 5000
+
+spring:
+  application:
+    name: spring-server
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring-user-test-db?useSSL=false&useUnicode=yes&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&serverTimezone=UTC&createDatabaseIfNotExist=true
+    username: root
+    password: root
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+    hibernate:
+      ddl-auto: update
+
