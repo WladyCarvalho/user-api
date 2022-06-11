@@ -6,9 +6,9 @@ spring:
     name: spring-server
 
   datasource:
-    url: jdbc:mysql://localhost:3306/spring-user-test-db?useSSL=false&useUnicode=yes&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&serverTimezone=UTC&createDatabaseIfNotExist=true
-    username: root
-    password: root
+    url: jdbc:mysql://remotemysql.com:3306/equ9yO6p8J?useSSL=false&useUnicode=yes&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&serverTimezone=UTC&createDatabaseIfNotExist=true
+    username: equ9yO6p8J
+    password: c3Qx3hl6sU
 
   jpa:
     properties:
